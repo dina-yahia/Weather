@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark mb-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="logo.png" alt="" class="logo"> </a>
+        <div class="logo-type text-white">
+          <h1 class="site-title mb-0">Weather</h1>
+          <small class="site-description">tagline goes here</small>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link1 active me-5"id="home" aria-current="page" href="#">Home</a>
+            <a class="nav-link active me-5" href="#">News</a>
+            <a class="nav-link active me-5" href="#">Live Cameras</a>
+            <a class="nav-link active me-5"href="#">Photos</a>
+            <a class="nav-link active"href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    
+<div class="imges py-5 mb-5">
+  <div class="container m-auto mt-5">
+    <form action="#" class="Find-form mt-5 position-relative">
+      <input id="cityName"type="text" placeholder="Find your location">
+      <!-- <input id="findCity"type="submit" value="Find"class="position-absolute"> -->
+      <button onclick="findCity()" class="btn btn-primary position-absolute">find</button>
+    </form>
+  </div>
+</div>
+<!-- end search -->
+
+<div class="forecast mb-4">
+  
+    <div class="container pb-3">
+      <div class="row">
+
+    
+      <div class="col-md-4 p-0"id="myData">
+        <!-- <div class="forecast-item">
+          <div class="header d-flex justify-content-between">
+            <p>saturday</p>
+            <p>25febrauray</p>
+          </div>
+
+          <div class="forecast-content">
+            <div class="city">alex</div>
+            <div class="degree d-flex justify-content-between">
+              <div class="num">20<sup>o</sup>C</div>
+              <div class="forecast-icon mt-4">
+                  <img src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="" width="90">
+              </div>	
+          </div>
+          <div class="custom">Partly cloudy</div>
+          <div class="forecast-icon">
+            <span><img src="icon-umberella.png" alt="">20%</span>
+            <img src="icon-wind.png" alt=""class="ms-4">18km/h
+            <img src="icon-compass.png" alt=""class="ms-4">East
+          </div>
+          </div>
+        </div> -->
+      </div>
+     
+     
+       <div class="col-md-4 p-0"id="myData1">
+        <!-- <div class="forecast-item">
+          <div class="header1 d-flex  align-items-center justify-content-center">
+            <p>sunday</p>
+           
+          </div>
+          <div class="forecast-content1 text-center">
+            <div class="forecast-icon mt-5">
+              <img src="113.webp" alt="">
+            </div>
+            <div class="degree mt-4">26.6<sup>o</sup>C</div> 
+            <div class="degree-min mt-2">13.1<sup>o</sup>C</div> 
+            <div class="custom">Sunny</div>
+          </div>
+        </div> -->
+      </div>
+     
+      <div class="col-md-4 p-0"id="myData2">
+        <!-- <div class="forecast-item">
+          <div class="header d-flex  align-items-center justify-content-center">
+            <p>saturday</p>
+            
+          </div>
+          <div class="forecast-content text-center">
+            <div class="forecast-icon mt-5">
+              <img src="113.webp" alt="">
+            </div>
+            <div class="degree mt-4">26.6<sup>o</sup>C</div> 
+            <div class="degree-min mt-2">13.1<sup>o</sup>C</div> 
+            <div class="custom">Sunny</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end forecast -->
+
+<div class="end">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <form action="#" class="subscribe-form mt-5 position-relative">
+          <input type="text" placeholder="Enter your email to subscribe...">
+          <input type="submit" value="Subscribe"class="position-absolute">
+        </form>
+      </div>
+      <div class="col-md-3">
+        <div class="social-icon mt-5 d-flex align-items-center justify-content-center">
+          <div class="icon-item rounded-circle d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-facebook fa-xl"></i>
+          </div>
+          <div class="icon-item d-flex align-items-center justify-content-center ">
+            <i class="fa-brands fa-twitter fa-xl "></i>
+          </div>
+          <div class="icon-item d-flex align-items-center justify-content-center">
+            <i class="fa-brands fa-google-plus fa-xl "></i>
+          </div>
+          <div class="icon-item d-flex align-items-center justify-content-center ">
+            <i class="fa-brands fa-pinterest fa-xl "></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="colophon mt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  </div>
+</div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>  
+  <script src="ass.js"></script>
+</body>
+</html>
